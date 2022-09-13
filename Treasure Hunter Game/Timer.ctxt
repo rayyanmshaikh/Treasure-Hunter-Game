@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Timer
+comment0.text=\r\n\ \ \ \ \ \ \ A\ class\ that\ can\ be\ used\ for\ many\ purposes,\ but\ usually\ for\ a\ counter\ or\ a\ delay\ counter;\r\n\ \ \ \ \ \ \ this\ is\ a\ non-displayable\ object\ that\ does\ not\ have\ an\ act\ method;\ a\ world\ or\ actor\ class\ \r\n\ \ \ \ \ \ \ creates\ a\ Timer\ object\ and\ keeps\ a\ reference\ to\ that\ object;\ that\ class\ will\ provide\ that\r\n\ \ \ \ \ \ \ object\ with\ an\ integer\ value\ that\ will\ be\ the\ number\ of\ counts\ before\ it\ returns\ a\ 'false'\r\n\ \ \ \ \ \ \ value.\ \ It\ may\ seem\ strange\ to\ return\ a\ 'false'\ value\ when\ the\ count\ is\ complete;\ however,\r\n\ \ \ \ \ \ \ it\ will\ be\ apparent\ why.\ \ To\ execute\ one\ step\ of\ the\ timer,\ the\ 'iterating'\ method\ is\ called.\r\n\ \ \ \ \ \ \ This\ method\ will\ return\ a\ boolean\ value\ informing\ the\ caller\ whether\ the\ counter\ is\ running\r\n\ \ \ \ \ \ \ or\ not\ (or\ has\ not\ yet\ reached\ zero,\ when\ looping).\ \ If\ it\ is\ running,\ then\ we\ are\ still\ in\r\n\ \ \ \ \ \ \ delay\ mode\ and\ should\ not\ do\ whatever\ action\ the\ timer\ is\ controlling.\r\n\ \r\n\ <br\ />\r\n\ <br\ />Author\:\ danpost\r\n\ <br\ />Date\:\ May\ 19,\ 2013\r\n
+comment1.params=amount
+comment1.target=Timer(int)
+comment1.text=\r\n\ this\ secondary\ constructor\ creates\ a\ timer\ object\ that\ does\ not\ loop\ automatically\r\n\r\n\ @param\ amount\ the\ number\ of\ steps\ to\ complete\ one\ cycle\r\n
+comment2.params=amount\ toLoop
+comment2.target=Timer(int,\ boolean)
+comment2.text=\r\n\ this\ primary\ constructor\ sets\ up\ a\ timer\ object\r\n\r\n\ @param\ amount\ the\ number\ of\ steps\ to\ complete\ one\ cycle\r\n\ @param\ toLoop\ a\ flag\ indicating\ whether\ the\ timer\ should\ loop\ automatically\ or\ not\r\n
+comment3.params=
+comment3.target=boolean\ iterating()
+comment3.text=\r\n\ usually\ called\ by\ the\ object\ that\ created\ the\ timer\ to\ execute\ one\ step\ and\ return\ a\ boolean\ value\r\n\ indicating\ whether\ the\ timer\ is\ still\ running\ or\ not;\ a\ paused\ state\ is\ a\ busy\ state\ and\ returns\ a\r\n\ true\ value\ just\ as\ if\ the\ timer\ was\ still\ running\r\n\r\n\ @return\ a\ boolean\ value\ indicating\ whether\ the\ timer\ is\ paused\ or\ has\ not\ completed\ a\ cycle,\ or\ not\r\n
+comment4.params=
+comment4.target=void\ stop()
+comment4.text=\r\n\ stops\ the\ timer\r\n
+comment5.params=
+comment5.target=void\ start()
+comment5.text=\r\n\ starts\ the\ timer\r\n
+comment6.params=
+comment6.target=void\ resume()
+comment6.text=\r\n\ un-pauses\ the\ timer\r\n
+comment7.params=
+comment7.target=void\ pause()
+comment7.text=\r\n\ pauses\ the\ timer\r\n
+numComments=8
