@@ -1,6 +1,6 @@
 # Treasure-Hunter-Game
 A 2D single-player arcade type game created using Java along with the educational IDE Greenfoot.
-![Front]("https://user-images.githubusercontent.com/84817133/192116653-4bfd9a6a-c34b-4a7d-9c1a-8225b52bae8f.png)
+![Front](https://user-images.githubusercontent.com/84817133/192116653-4bfd9a6a-c34b-4a7d-9c1a-8225b52bae8f.png)
 
 ## Objective
 The higher the score, the more traps that come to get you! Make sure not to get caught!
